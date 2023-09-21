@@ -32,6 +32,9 @@ nav {
     list-style: none;
     font-size: 2.5vh;
 }
+.listitem:hover {
+    background-color: #333;
+}
 
 #profile {
     display: flex;
