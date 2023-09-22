@@ -8,7 +8,6 @@
     font-family: 'Courier New', Courier, monospace;
     margin: 0px;
     padding: 0px;
-    scroll-snap-type: y proximity;
 }
 nav {
     display: flex;
@@ -47,7 +46,6 @@ footer {
 .listitem:hover {
     background-color: #333;
 }
-
 #profile {
     display: flex;
     align-items: center;
@@ -56,7 +54,6 @@ footer {
     height: 86vh;
     background-color: #161016;
     color: white;
-    scroll-snap-type: y mandatory;
 }
 #profile img {
     width: 55vh;
@@ -135,4 +132,110 @@ h3 {
     margin: 0.75vh;
     color: #fff;
     font-size: 2.4vh;
+}
+#menu {
+    display: none;
+}
+label {
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    #profile {
+        flex-direction: column;
+    }
+    #profile img {
+        width: 80%;
+        height: auto;
+    }
+    #profile h1 {
+        font-size: 5vh;
+        text-align: center;
+        margin-left: 0px;
+    }
+    #profile h2 {
+        font-size: 2.5vh;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .asec {
+        height: 100%;
+    }
+    .asec p, 
+    .bsec p, 
+    .csec p {
+    margin-left: 10vh;
+    margin-right: 10vh;
+    }
+    .asec li, 
+    .bsec li, 
+    .csec li {
+    margin-left: 10vh;
+    margin-right: 10vh;
+    }
+    h3 {
+        padding-top: 5.75vh;
+    text-align: center;
+    margin: 0px;
+    }
+    nav ul {
+    flex-direction: column;
+    }
+    nav li {
+    margin: 1vh 0;
+    text-align: center;
+    }
+    nav a {
+    font-size: 4vh;
+    }
+    .listitem {
+    font-size: 4vh;
+    border-radius: 3vh;
+    text-align: center;
+    }
+    .contacto {
+    flex-direction: column;
+    align-items: center;
+    }
+    .list {
+    display: none;
+    background-color: black;
+    }
+    input:checked~ul {
+    display: flex;
+    }
+    input:checked~label {
+    background: #000F89;
+    }
+    label:hover {
+    background: #FD7E14;
+    }
+    li {
+    margin: 0px;
+    text-align: left;
+    }
+    label {
+    box-sizing: border-box;
+    display: block;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+    background-color: #000F89;
+    margin-left: 1vh;
+    }
+    .contenedorflex {
+    flex-direction: column;
+    justify-content: center;
+    }
+    ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    }
+    ul li a:hover {
+    color: #Ffffff;
+    }
 }
