@@ -146,6 +146,7 @@ label {
     #profile img {
         width: 80%;
         height: auto;
+        border: 0.5vh solid rgb(255, 255, 255);
     }
     #profile h1 {
         font-size: 5vh;
@@ -173,7 +174,7 @@ label {
     margin-right: 10vh;
     }
     h3 {
-        padding-top: 5.75vh;
+    padding-top: 5.75vh;
     text-align: center;
     margin: 0px;
     }
@@ -198,16 +199,16 @@ label {
     }
     .list {
     display: none;
-    background-color: black;
+    background-color: #333333ea;
     }
     input:checked~ul {
     display: flex;
     }
     input:checked~label {
-    background: #000F89;
+    background: #414040;
     }
     label:hover {
-    background: #FD7E14;
+    background: #8f8f8f;
     }
     li {
     margin: 0px;
@@ -216,7 +217,7 @@ label {
     label {
     box-sizing: border-box;
     display: block;
-    border: 1px solid #ffffff;
+    border: 1px solid #333;
     border-radius: 5px;
     width: 30px;
     height: 30px;
@@ -224,18 +225,7 @@ label {
     font-weight: bold;
     text-align: center;
     user-select: none;
-    background-color: #000F89;
+    background-color: #8f8f8f;
     margin-left: 1vh;
-    }
-    .contenedorflex {
-    flex-direction: column;
-    justify-content: center;
-    }
-    ul li a {
-    text-decoration: none;
-    color: #ffffff;
-    }
-    ul li a:hover {
-    color: #Ffffff;
     }
 }
