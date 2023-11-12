@@ -93,9 +93,18 @@ footer {
     background-color: #121012;
     color: white;
 }
+.dsec {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    background-color: #252425;
+    color: white;
+}
 .asec p, 
 .bsec p, 
-.csec p {
+.csec p,
+.dsec p {
     text-align: left;
     font-size: 1.8vh;
     margin-left: 25vh;
@@ -110,6 +119,9 @@ footer {
     margin-left: 25vh;
     margin-right: 25vh;
     padding-bottom: 1.5vh;
+}
+.dsec li {
+    font-size: 2.4vh;
 }
 h3 {
     padding-top: 18vh;
@@ -138,6 +150,58 @@ h3 {
 }
 label {
     display: none;
+}
+table {
+    padding-top: 18vh;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 0.3vh;
+    margin: auto;
+    -webkit-border-radius: 0.3vh;
+    -moz-border-radius: 0.3vh;
+    -ms-border-radius: 0.3vh;
+    -o-border-radius: 0.3vh;
+}
+
+td:nth-child(5) {
+    background-color: #6e0081;
+}
+
+td {
+width: 4.5vh;
+height: 4.5vh;
+border: 0.15vh solid #ddd;
+text-transform: uppercase;
+}
+
+input {
+width: 3.8vh;
+height: 3.8vh;
+text-align: center;
+text-transform: uppercase;
+}
+
+button {
+margin-top: 1.5vh;
+padding: 0.7vh 1.5vh;
+font-size: 2.5vh;
+cursor: pointer;
+}
+.empty {
+    background-color: black;
+}
+ol {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    margin: 0 auto;
+    width: 77vh;
+}
+button {
+    display: block;
+    margin: auto;
+    padding: 0.7vh 1.5vh;
+    font-size: 2.5vh;
+    cursor: pointer;
 }
 @media only screen and (max-width: 768px) {
     #profile {
@@ -227,5 +291,21 @@ label {
     user-select: none;
     background-color: #8f8f8f;
     margin-left: 1vh;
+    }
+    table {
+        padding-left: 1vh;
+        padding-right: 1vh;
+    }
+    input {
+        width: 3vh;
+        height: 3vh;
+    }
+    td {
+        width: 3vh;
+        height: 3vh;
+    }
+    ol {
+        padding-left: 8vh;
+        max-width: 40vh;
     }
 }
