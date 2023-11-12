@@ -20,5 +20,5 @@ function checkWords() {
         }
     }
 
-    alert('¡Todas las palabras son correctas! ¡Felicidades!');
+    alert('¡Todas las respuestas son correctas!');
 }
