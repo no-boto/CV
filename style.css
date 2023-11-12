@@ -180,13 +180,6 @@ height: 3.8vh;
 text-align: center;
 text-transform: uppercase;
 }
-
-button {
-margin-top: 1.5vh;
-padding: 0.7vh 1.5vh;
-font-size: 2.5vh;
-cursor: pointer;
-}
 .empty {
     background-color: black;
 }
@@ -198,6 +191,7 @@ ol {
 }
 button {
     display: block;
+    margin-top: 1.5vh;
     margin: auto;
     padding: 0.7vh 1.5vh;
     font-size: 2.5vh;
