@@ -15,7 +15,7 @@ function checkWords() {
 
     for (let i = 0; i < words.length; i++) {
         if (words[i].toUpperCase() !== correctWords[i]) {
-            alert('Respuestas incorrectas! Intenta de nuevo.');
+            alert('¡Respuestas incorrectas! Intenta de nuevo.');
             return;
         }
     }
