@@ -1,137 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tobias Herrlein - Cuestionario</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <input type="checkbox" id="menu">
-            <label for="menu"> ☰ </label>
-            <ul class="list">
-                <a href="index.html" class="listitem"><li>Inicio</li></a>
-                <a href="experiencia.html" class="listitem"><li>Experiencia</li></a>
-                <a href="educacion.html" class="listitem"><li>Educación</li></a>
-                <a href="licencias.html" class="listitem"><li>Licencias y certificaciones</li></a>
-                <a href="actividad.html" class="listitem"><li>Cuestionario</li></a>
-            </ul>
-        </nav>
+      <nav>
+        <input type="checkbox" id="menu" />
+        <label for="menu"> ☰ </label>
+        <ul class="list">
+          <a href="index.html" class="listitem"><li>Inicio</li></a>
+          <a href="experiencia.html" class="listitem"><li>Experiencia</li></a>
+          <a href="educacion.html" class="listitem"><li>Educación</li></a>
+          <a href="licencias.html" class="listitem"
+            ><li>Licencias y certificaciones</li></a
+          >
+          <a href="actividad.html" class="listitem"><li>Cuestionario</li></a>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section class="dsec">
-            <table id="crossword">
-                <tr>
-                    <td class="empty"></td>
-                    <td><input type="text" id="1_1" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="1_2" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="1_3" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="1_4" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="1_5" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="1_6" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="1_7" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="1_8" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="1_9" maxlength="1" oninput="limitInput(this)"></td>
-                    <td class="empty"></td>
-                    <td class="empty"></td>
-                    <td class="empty"></td>
-                </tr>
-                <tr>
-                    <td class="empty"></td>
-                    <td><input type="text" id="2_1" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="2_2" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="2_3" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="2_4" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="2_5" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="2_6" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="2_7" maxlength="1" oninput="limitInput(this)"></td>
-                    <td class="empty"></td>
-                    <td class="empty"></td>
-                    <td class="empty"></td>
-                    <td class="empty"></td>
-                    <td class="empty"></td>
-                </tr>
-                <tr>
-                    <td class="empty"></td>
-                    <td class="empty"></td>
-                    <td class="empty"></td>
-                    <td class="empty"></td>
-                    <td><input type="text" id="3_1" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="3_2" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="3_3" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="3_4" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="3_5" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="3_6" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="3_7" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="3_8" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="3_9" maxlength="1" oninput="limitInput(this)"></td>
-                </tr>
-                <tr>
-                    <td class="empty"></td>
-                    <td class="empty"></td>
-                    <td><input type="text" id="4_1" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="4_2" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="4_3" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="4_4" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="4_5" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="4_6" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="4_7" maxlength="1" oninput="limitInput(this)"></td>
-                    <td class="empty"></td>
-                    <td class="empty"></td>
-                    <td class="empty"></td>
-                    <td class="empty"></td>
-                </tr>
-                <tr>
-                    <td class="empty"></td>
-                    <td class="empty"></td>
-                    <td><input type="text" id="5_1" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="5_2" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="5_3" maxlength="1" oninput="limitInput(this)"></td>
-                    <td class="empty"></td>
-                    <td class="empty"></td>
-                    <td class="empty"></td>
-                    <td class="empty"></td>
-                    <td class="empty"></td>
-                    <td class="empty"></td>
-                    <td class="empty"></td>
-                    <td class="empty"></td>
-                </tr>
-                <tr>
-                    <td><input type="text" id="6_1" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="6_2" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="6_3" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="6_4" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="6_5" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="6_6" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="6_7" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="6_8" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="6_9" maxlength="1" oninput="limitInput(this)"></td>
-                    <td><input type="text" id="6_10" maxlength="1" oninput="limitInput(this)"></td>
-                    <td class="empty"></td>
-                    <td class="empty"></td>
-                    <td class="empty"></td>
-                </tr>
-                </table>
-                <ol>
-                    <li>Actualmente trabajo en ...</li>
-                    <li>Anteriormente me encontraba en ...</li>
-                    <li>Cursé un ... orientado a Gestión y Administración</li>
-                    <li>Mayormente mi experiencia es en atención al ...</li>
-                    <li>Retorno de Mercadería Autorizado</li>
-                    <li>Actualmente paso gran parte del tiempo en la plataforma ...</li>
-                </ol>
-                <button onclick="checkWords()">Verificar</button>
-        </section>
+      <section class="dsec">
+        <table id="crossword">
+            <tr>
+                <td class="empty"></td>
+                <td><input type="text" id="1_1" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="1_2" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="1_3" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="1_4" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="1_5" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="1_6" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="1_7" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="1_8" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="1_9" maxlength="1" oninput="limitInput(this)"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+            </tr>
+            <tr>
+                <td class="empty"></td>
+                <td><input type="text" id="2_1" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="2_2" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="2_3" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="2_4" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="2_5" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="2_6" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="2_7" maxlength="1" oninput="limitInput(this)"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+            </tr>
+            <tr>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td><input type="text" id="3_1" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="3_2" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="3_3" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="3_4" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="3_5" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="3_6" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="3_7" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="3_8" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="3_9" maxlength="1" oninput="limitInput(this)"></td>
+            </tr>
+            <tr>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td><input type="text" id="4_1" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="4_2" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="4_3" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="4_4" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="4_5" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="4_6" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="4_7" maxlength="1" oninput="limitInput(this)"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+            </tr>
+            <tr>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td><input type="text" id="5_1" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="5_2" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="5_3" maxlength="1" oninput="limitInput(this)"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="6_1" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="6_2" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="6_3" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="6_4" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="6_5" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="6_6" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="6_7" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="6_8" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="6_9" maxlength="1" oninput="limitInput(this)"></td>
+                <td><input type="text" id="6_10" maxlength="1" oninput="limitInput(this)"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td class="empty"></td>
+            </tr>
+            </table>
+        <ol>
+          <li>Actualmente trabajo en ...</li>
+          <li>Anteriormente me encontraba en ...</li>
+          <li>Cursé un ... orientado a Gestión y Administración</li>
+          <li>Mayormente mi experiencia es en atención al ...</li>
+          <li>Retorno de Mercadería Autorizado</li>
+          <li>Actualmente paso gran parte del tiempo en la plataforma ...</li>
+        </ol>
+        <button onclick="checkWords()">Verificar</button>
+      </section>
     </main>
     <footer>
-        <section class="contacto">
-            <p>Teléfono:+5491168930950</p>
-            <p>Correo:therrlein@uade.edu.ar</p>
-            <a href="https://www.linkedin.com/in/tobiasherrlein/">Linkedin</a>
-        </section>
+      <section class="contacto">
+        <p>Teléfono:+5491168930950</p>
+        <p>Correo:therrlein@uade.edu.ar</p>
+        <a href="https://www.linkedin.com/in/tobiasherrlein/">Linkedin</a>
+      </section>
     </footer>
-</body>
+  </body>
 </html>
